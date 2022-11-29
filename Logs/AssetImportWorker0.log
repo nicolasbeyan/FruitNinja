@@ -1,0 +1,368 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.14f1 (eee1884e7226) revision 15655304'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'fr' Physical Memory: 15792 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Unity/Fruit Ninja/Fruit Ninja
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52072
+Successfully changed project path to: D:/Unity/Fruit Ninja/Fruit Ninja
+D:/Unity/Fruit Ninja/Fruit Ninja
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 74.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.14f1 (eee1884e7226)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/Fruit Ninja/Fruit Ninja/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3990 MB
+    Driver:   31.0.15.1748
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56824
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008472 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 73.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.694 seconds
+Domain Reload Profiling:
+	ReloadAssembly (695ms)
+		BeginReloadAssembly (137ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (442ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (100ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (266ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (73ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (138ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005755 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Fruit Ninja\Fruit Ninja\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Fruit Ninja\Fruit Ninja\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.042 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1043ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (822ms)
+			LoadAssemblies (139ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (251ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (356ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (227ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3351 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (113.4 KB). Loaded Objects now: 3808.
+Memory consumption went from 115.3 MB to 115.2 MB.
+Total: 3.437100 ms (FindLiveObjects: 0.404200 ms CreateObjectMapping: 0.177200 ms MarkObjects: 2.733500 ms  DeleteObjects: 0.121000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 622732.824756 seconds.
+  path: Assets/Fruit_Sliced.fbx
+  artifactKey: Guid(9d2b9dd339572ff448ca7e3ff24eb527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fruit_Sliced.fbx using Guid(9d2b9dd339572ff448ca7e3ff24eb527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ff5a3affb4051303006308c23f0cf1') in 0.441225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.185931 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.005337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.014733 seconds.
+  path: Assets/Textures
+  artifactKey: Guid(b38ef04879bcf174e911c3153ef4169d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures using Guid(b38ef04879bcf174e911c3153ef4169d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0e33e2e24e3638c80869e68106eadaa') in 0.005890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.257544 seconds.
+  path: Assets/Props
+  artifactKey: Guid(feeba899ad1ad7b4b84f7f8565dbfeeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props using Guid(feeba899ad1ad7b4b84f7f8565dbfeeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8d6e0c9108a6c2f2f7df4337f5cd898') in 0.005913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 54.171810 seconds.
+  path: Assets/Textures/Wood020_8K_Color.jpg
+  artifactKey: Guid(ded8c5fb811af814ea0edf3f8003bfac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wood020_8K_Color.jpg using Guid(ded8c5fb811af814ea0edf3f8003bfac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad6b8ddb8bc04c1294c36d2ef437792f') in 0.038439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 170.947246 seconds.
+  path: Assets/Textures/Background.mat
+  artifactKey: Guid(bc7ff55079d09394bb8f3399fc49d6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Background.mat using Guid(bc7ff55079d09394bb8f3399fc49d6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb23deba95105f1aae4735d0f7be2e9') in 0.017921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 907.589324 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(c06c167a7bfca6f41ade5a8fcb81b5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(c06c167a7bfca6f41ade5a8fcb81b5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0de40be702e24354ad00f7de8f51bf63') in 0.007172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.909002 seconds.
+  path: Assets/Prefabs/Fruits.prefab
+  artifactKey: Guid(e90add4bd4fdf824b95f6498f8e57c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fruits.prefab using Guid(e90add4bd4fdf824b95f6498f8e57c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc70445cf848f708da4b978f16ab8d4e') in 0.088537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.158826 seconds.
+  path: Assets/Prefabs/Fruits_Base.prefab
+  artifactKey: Guid(e90add4bd4fdf824b95f6498f8e57c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fruits_Base.prefab using Guid(e90add4bd4fdf824b95f6498f8e57c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05706be4928e4e35be4cce072f7513d9') in 0.015249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 53.887200 seconds.
+  path: Assets/Prefabs/Fruits Variant.prefab
+  artifactKey: Guid(b1a8a0475019d3945bf96aee34e7d122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fruits Variant.prefab using Guid(b1a8a0475019d3945bf96aee34e7d122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3f7b17ee4127fb268d6adf34f5d1d59') in 0.016334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.876632 seconds.
+  path: Assets/Prefabs/WaterMelon.prefab
+  artifactKey: Guid(b1a8a0475019d3945bf96aee34e7d122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WaterMelon.prefab using Guid(b1a8a0475019d3945bf96aee34e7d122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9517710d05bf61768b17c2c4365dd61e') in 0.014222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 51.347079 seconds.
+  path: Assets/Textures/Watermelon_Inside.mat
+  artifactKey: Guid(02c1a96c61d55e449b81c3b5d391b968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Watermelon_Inside.mat using Guid(02c1a96c61d55e449b81c3b5d391b968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b385e7abdae4a4b3ab95c5be7eb3fc1c') in 0.016957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.832749 seconds.
+  path: Assets/Textures/Background.mat
+  artifactKey: Guid(bc7ff55079d09394bb8f3399fc49d6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Background.mat using Guid(bc7ff55079d09394bb8f3399fc49d6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed18ed182e6d64a038bd52ebacca01c6') in 0.103068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.560734 seconds.
+  path: Assets/Textures/Watermelon_Outside.mat
+  artifactKey: Guid(012067e33f8eb5e4ca613088410cdd83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Watermelon_Outside.mat using Guid(012067e33f8eb5e4ca613088410cdd83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b84f764ac5f0797e64a024317109f8') in 0.014409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 294.454943 seconds.
+  path: Assets/Textures/3DMelon001_SQ-4K_Color.jpg
+  artifactKey: Guid(3ac53e103cc1e5144b275b5d16e7b73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/3DMelon001_SQ-4K_Color.jpg using Guid(3ac53e103cc1e5144b275b5d16e7b73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ea03f77e8562eb366e188eb27fd9b8c') in 0.022485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.320133 seconds.
+  path: Assets/Textures/Background 1.mat
+  artifactKey: Guid(ca2f441628aecf540afae4e687b1b046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Background 1.mat using Guid(ca2f441628aecf540afae4e687b1b046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3ed7e0b1b5f1301966c03aa3224e1b2') in 0.025219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.267460 seconds.
+  path: Assets/Textures/Watermelon.mat
+  artifactKey: Guid(ca2f441628aecf540afae4e687b1b046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Watermelon.mat using Guid(ca2f441628aecf540afae4e687b1b046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8bc60cae5947320c7293b9654dcbb68') in 0.024998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 64.091708 seconds.
+  path: Assets/Textures/3DMelon001_PREVIEW.jpg
+  artifactKey: Guid(5743dd7c3630c654c91b54c33c9599b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/3DMelon001_PREVIEW.jpg using Guid(5743dd7c3630c654c91b54c33c9599b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '831e642a1f8ec74390ba79f06352e2ec') in 0.014946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 105.490558 seconds.
+  path: Assets/Props/3DMelon001_SQ-4K-JPG.obj
+  artifactKey: Guid(4f46fc06672d3cd49b92617892df29ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/3DMelon001_SQ-4K-JPG.obj using Guid(4f46fc06672d3cd49b92617892df29ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8cfbdb1505bb9ea1d747c02b4a551db') in 0.046941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.558799 seconds.
+  path: Assets/Props/3DMelon001_SQ-4K_AmbientOcclusion.jpg
+  artifactKey: Guid(983073251e603e742ab719ee8191024c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/3DMelon001_SQ-4K_AmbientOcclusion.jpg using Guid(983073251e603e742ab719ee8191024c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f222bda1badf4ace1d5c5b8a1583ab15') in 0.019221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Props/3DMelon001_SQ-4K_NormalDX.jpg
+  artifactKey: Guid(4415b71cb6bcf8642838997ef8a9fbf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/3DMelon001_SQ-4K_NormalDX.jpg using Guid(4415b71cb6bcf8642838997ef8a9fbf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fbaf796721cf70e9ef815d2d7eccb00') in 0.015798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 197.049550 seconds.
+  path: Assets/Prefabs/WaterMelon.prefab
+  artifactKey: Guid(b1a8a0475019d3945bf96aee34e7d122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WaterMelon.prefab using Guid(b1a8a0475019d3945bf96aee34e7d122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09a1ec3a92e770e82e5d89313914c155') in 0.011937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.280102 seconds.
+  path: Assets/Prefabs/WaterMelon 1.prefab
+  artifactKey: Guid(3b6f9ffd6a5881445b8db83718b62953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WaterMelon 1.prefab using Guid(3b6f9ffd6a5881445b8db83718b62953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '077ae6cb417fe2f6e5518f85a624c5c4') in 0.015188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.473511 seconds.
+  path: Assets/Prefabs/WaterMelon 2.prefab
+  artifactKey: Guid(a87920035f4d7c448b2c3fb35ccc0d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WaterMelon 2.prefab using Guid(a87920035f4d7c448b2c3fb35ccc0d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32646b38ca796675d5daff675ec48ab4') in 0.014824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.436681 seconds.
+  path: Assets/Prefabs/WaterMelon 3.prefab
+  artifactKey: Guid(f598c43f7202390458c4e34add559ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WaterMelon 3.prefab using Guid(f598c43f7202390458c4e34add559ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d9dbab952f186b71b0d1085ac15576') in 0.016213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.464226 seconds.
+  path: Assets/Prefabs/WaterMelon 4.prefab
+  artifactKey: Guid(3af6aede4fe0b5749892c6c9f20b6f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WaterMelon 4.prefab using Guid(3af6aede4fe0b5749892c6c9f20b6f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eb1e8316830284bdecc72b9be2e02ce') in 0.016235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.154215 seconds.
+  path: Assets/Prefabs/Orange.prefab
+  artifactKey: Guid(3b6f9ffd6a5881445b8db83718b62953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Orange.prefab using Guid(3b6f9ffd6a5881445b8db83718b62953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88a313a5032a6990bba0cd782722807e') in 0.015119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.190614 seconds.
+  path: Assets/Prefabs/Apple.prefab
+  artifactKey: Guid(a87920035f4d7c448b2c3fb35ccc0d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Apple.prefab using Guid(a87920035f4d7c448b2c3fb35ccc0d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '906e5da0a0fe953c673969af5faab424') in 0.015949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.731196 seconds.
+  path: Assets/Prefabs/Kiwi.prefab
+  artifactKey: Guid(f598c43f7202390458c4e34add559ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Kiwi.prefab using Guid(f598c43f7202390458c4e34add559ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd121ffa4db0bad695ddc64c3fcca77b2') in 0.016176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.975934 seconds.
+  path: Assets/Prefabs/Lemon.prefab
+  artifactKey: Guid(3af6aede4fe0b5749892c6c9f20b6f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lemon.prefab using Guid(3af6aede4fe0b5749892c6c9f20b6f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b041f08778c8f7719be1fcfe2df46f9b') in 0.016735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 192.984709 seconds.
+  path: Assets/Textures/Apple_Inside.mat
+  artifactKey: Guid(fd37c8f5edda9a348b7ab93371a79a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Apple_Inside.mat using Guid(fd37c8f5edda9a348b7ab93371a79a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd111d9b5ec9292e7d3e2fa06b35b2c65') in 0.123581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Textures/Lemon_Outside.mat
+  artifactKey: Guid(7744c049d0f63e54781ce2684e11186d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Lemon_Outside.mat using Guid(7744c049d0f63e54781ce2684e11186d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a565aa06cbdf976af45487e5a8a0e8ed') in 0.225202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Textures/Lemon_Inside.mat
+  artifactKey: Guid(8ec9faea3333915428dc4ae4499ac4c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Lemon_Inside.mat using Guid(8ec9faea3333915428dc4ae4499ac4c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2192b3e0efa5f0653ec89e118ebde190') in 0.018801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Textures/Kiwi_Inside.mat
+  artifactKey: Guid(6b5d5021afaba7740a39bd17ae62a31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Kiwi_Inside.mat using Guid(6b5d5021afaba7740a39bd17ae62a31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b321c67461a054be76439af8de45d3a') in 0.016556 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
